@@ -19,13 +19,13 @@
 		<br>
 		<a href="schoolapi/schools/1/exams">Get the List of all Exams of a School</a>
 		<br>
-		<a href="schoolapi/shownewform">Add a new School</a>
+		<a href="schoolapi/schools/shownewform">Add a new School</a>
 		<br>
-		<a href="schoolapi/showeditform">Edit a School</a>
+		<a href="schoolapi/schools/showeditform">Edit a School</a>
 		<br>
 		<a href="schoolapi/schools/link-subjects-to-school-form">Link the subjects to a School</a>
 		<br>
-		<a href="schoolapi/showdeleteform">Delete a School</a>
+		<a href="schoolapi/schools/showdeleteform">Delete a School</a>
 		<br>
 	
 	</body>

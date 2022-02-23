@@ -49,7 +49,7 @@ public class SchoolSystemController {
 	}
 	
 	// this method shows a form for adding a new school
-	@RequestMapping("/shownewform")
+	@RequestMapping("/schools/shownewform")
 	public String showSchoolNewForm() {
 		
 		System.out.println("Inside school controller, show school new form");
@@ -59,7 +59,7 @@ public class SchoolSystemController {
 	}
 	
 	// this method shows a form for editing a school
-	@RequestMapping("/showeditform")
+	@RequestMapping("/schools/showeditform")
 	public String showSchoolEditForm() {
 		System.out.println("Inside school controller, show school edit form");
 		
@@ -68,7 +68,7 @@ public class SchoolSystemController {
 	}
 	
 	// this method shows a form for deleting a school
-	@RequestMapping("/showdeleteform")
+	@RequestMapping("/schools/showdeleteform")
 	public String showSchoolDeleteForm() {
 		
 		System.out.println("Inside school controller, show school delete form");
@@ -78,7 +78,7 @@ public class SchoolSystemController {
 	}
 		
 	// this method shows a form to links subjects to a school
-	@RequestMapping("/link-subjects-to-school-form")
+	@RequestMapping("/schools/link-subjects-to-school-form")
 	public String linkSubjectsToASchool() {
 		
 		System.out.println("Inside school controller, link subjects to a school form");
